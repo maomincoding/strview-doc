@@ -34,27 +34,22 @@ module.exports = {
                     {
                         title: 'Introduce',
                         path: '/introduce/',
-                        collapsable: false,
                     },
                     {
                         title: 'Install',
                         path: '/install/',
-                        collapsable: false,
                     },
                     {
                         title: 'Started',
                         path: '/started/',
-                        collapsable: false,
                     },
                     {
                         title: 'Use',
                         path: '/use/',
-                        collapsable: false,
                     },
                     {
                         title: 'Build',
                         path: '/build/',
-                        collapsable: false,
                     },
                 ],
             },
@@ -65,27 +60,22 @@ module.exports = {
                     {
                         title: '介绍',
                         path: '/zh/introduce/',
-                        collapsable: false,
                     },
                     {
                         title: '安装',
                         path: '/zh/install/',
-                        collapsable: false,
                     },
                     {
                         title: '快速上手',
                         path: '/zh/started/',
-                        collapsable: false,
                     },
                     {
                         title: '基本使用',
                         path: '/zh/use/',
-                        collapsable: false,
                     },
                     {
                         title: '部署',
                         path: '/zh/build/',
-                        collapsable: false,
                     },
                 ],
             }
