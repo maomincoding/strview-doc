@@ -13,7 +13,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.7.8/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",

@@ -16,7 +16,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.7.8/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -48,7 +48,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.7.8/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
     <script>
         let isOk = false;
         Strview.createView({
@@ -85,7 +85,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.7.8/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
     <script>
         let liNodes = ``;
         for (let index = 1; index < 3; index++) {
@@ -118,7 +118,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.7.8/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -159,7 +159,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.7.8/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -173,6 +173,48 @@
 
         Strview.eventListener('p', 'click', () => {
             Strview.ref().msg = 1;
+        });
+    </script>
+</body>
+
+</html>
+```
+
+### reactive
+针对复杂属性。
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strview.js</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script>
+        Strview.createView({
+            el: "#app",
+            data: {
+                obj: {
+                    a: 1,
+                    b: 2
+                }
+            },
+            template: `
+            <button class="btn1">change</button>
+            <p>{obj.a}</p>
+            <p>{obj.b}</p>
+            `,
+        });
+
+        Strview.eventListener('.btn1', 'click', () => {
+            Strview.reactive()['obj.a'] = 2;
+            Strview.reactive().obj.b = 3;
         });
     </script>
 </body>
