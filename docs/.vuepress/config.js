@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/site/strviewjs/',
     title: 'Strview.js',
     description: 'A JS library that can convert strings into view',
     head: [
