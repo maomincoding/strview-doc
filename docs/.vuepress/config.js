@@ -80,8 +80,6 @@ module.exports = {
                 ],
             }
         },
-
-        displayAllHeaders: true,
         smoothScroll: true
     }
 }
