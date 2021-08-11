@@ -34,6 +34,7 @@
 <demo2/>
 
 ## 条件渲染
+只适用于初次渲染。
 
 ```html
 <!DOCTYPE html>
