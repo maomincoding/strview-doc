@@ -4,19 +4,19 @@
 
 直接引入以下地址：
 ```html
-<script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
 ```
 
 如果你使用原生 ES Modules，这里也有一个兼容 ES Module 的构建文件：
 
 ```html
 <script type="module">
-  import { createView } from 'https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.esm.js'
+  import { createView } from 'https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.esm.js'
 </script>
 ```
 ## NPM
 
-最新稳定版本：`1.8.0`
+最新稳定版本：`1.9.0`
 ```shell
 npm install strview
 ```

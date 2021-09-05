@@ -15,7 +15,7 @@ The easiest way to try `Strview.js` is to use the Hello World example. You can o
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",

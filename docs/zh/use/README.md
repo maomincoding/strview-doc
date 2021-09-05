@@ -16,7 +16,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -49,7 +49,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         let isOk = false;
         Strview.createView({
@@ -86,7 +86,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         let liNodes = ``;
         for (let index = 1; index < 3; index++) {
@@ -119,7 +119,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -160,7 +160,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -196,7 +196,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",

@@ -17,7 +17,7 @@ Use the `createView` method to pass in an object, and the object properties are 
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -50,7 +50,7 @@ Only applicable to the first rendering.
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         let isOk = false;
         Strview.createView({
@@ -87,7 +87,7 @@ Only applicable to the first rendering.
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         let liNodes = ``;
         for (let index = 1; index < 3; index++) {
@@ -120,7 +120,7 @@ The `eventListener` method has a total of three parameters, namely **DOM node**,
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -161,7 +161,7 @@ For a single simple attribute.
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",
@@ -198,7 +198,7 @@ For complex attributes.
 
 <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
     <script>
         Strview.createView({
             el: "#app",

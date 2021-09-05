@@ -4,19 +4,19 @@
 
 Directly introduce the following address：
 ```html
-<script src="https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.global.js"></script>
 ```
 
 If you use native ES Modules, there is also a build file compatible with ES Module：
 
 ```html
 <script type="module">
-  import { createView } from 'https://cdn.jsdelivr.net/npm/strview@1.8.0/dist/strview.esm.js'
+  import { createView } from 'https://cdn.jsdelivr.net/npm/strview@1.9.0/dist/strview.esm.js'
 </script>
 ```
 ## NPM
 
-Latest stable version：`1.8.0`
+Latest stable version：`1.9.0`
 ```shell
 npm install strview
 ```
